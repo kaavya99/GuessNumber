@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         if guess < lowerBound || guess > upperBound {
             showBoundsAlert()
         } else if guess < numberToGuess {
-            print("Higher!")
+            guessLabel.text = "Higher!"
         } else if guess > numberToGuess {
             guessLabel.text = "Lower!"
         } else {
