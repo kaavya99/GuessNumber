@@ -38,7 +38,7 @@ class LoginController: UIViewController {
         button.setTitle("Log In", for: .normal)
         button.layer.cornerRadius = 5
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
-        button.backgroundColor = #colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1)
+        button.backgroundColor = #colorLiteral(red: 0.5843137503, green: 0.8235294223, blue: 0.4196078479, alpha: 1)
         button.setTitleColor(.white, for: .normal)
         button.setHeight(height: 50)
         button.addTarget(self, action: #selector(handleLogIn) , for: .touchUpInside)
@@ -84,7 +84,13 @@ class LoginController: UIViewController {
     }
     
     @objc func handleShowSignUp() {
-        print("DEBUG: Show sign up")
+        let controller = RegistrationController()
+        navigationController?.pushViewController(controller, animated: true)
+    }
+    
+    @objc func dismissKeyboard (_ sender: UITapGestureRecognizer) {
+        emailTextField.resignFirstResponder()
+        passwordTextField.resignFirstResponder()
     }
     
     // MARK: - Helpers
@@ -93,8 +99,8 @@ class LoginController: UIViewController {
         navigationController?.navigationBar.isHidden = true
         navigationController?.navigationBar.barStyle = .black
         
-//        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.dismissKeyboard (_:)))
-//        self.view.addGestureRecognizer(tapGesture)
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.dismissKeyboard (_:)))
+        self.view.addGestureRecognizer(tapGesture)
         
         configureGradientLayer()
         
@@ -109,9 +115,6 @@ class LoginController: UIViewController {
         view.addSubview(dontHaveAccountButton)
         dontHaveAccountButton.anchor(left: view.leftAnchor, bottom: view.safeAreaLayoutGuide.bottomAnchor, right: view.rightAnchor,
                                      paddingLeft: 32, paddingRight: 32)
-        
-//        emailTextField.addTarget(self, action: #selector(textDidChange), for: .editingChanged)
-//        passwordTextField.addTarget(self, action: #selector(textDidChange), for: .editingChanged)
     }
     
 }

@@ -84,7 +84,7 @@ extension UIViewController {
     
     func configureGradientLayer() {
         let gradient = CAGradientLayer()
-        gradient.colors = [UIColor.systemPurple.cgColor, UIColor.systemPink.cgColor]
+        gradient.colors = [UIColor.systemBlue.cgColor, UIColor.systemGreen.cgColor]
         gradient.locations = [0,1]
         view.layer.addSublayer(gradient)
         gradient.frame = view.frame
@@ -94,7 +94,7 @@ extension UIViewController {
         let appearance = UINavigationBarAppearance()
         appearance.configureWithOpaqueBackground()
         appearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
-        appearance.backgroundColor = .systemPurple
+        appearance.backgroundColor = .systemBlue
         
         navigationController?.navigationBar.standardAppearance = appearance
         navigationController?.navigationBar.compactAppearance = appearance

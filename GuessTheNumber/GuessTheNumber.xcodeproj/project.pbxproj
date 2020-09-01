@@ -18,6 +18,8 @@
 		EE0956E124FDD3F200169EB5 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0956E024FDD3F200169EB5 /* CustomTextField.swift */; };
 		EE0956E324FDD41B00169EB5 /* InputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0956E224FDD41B00169EB5 /* InputContainerView.swift */; };
 		EE0956E624FDD43E00169EB5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0956E524FDD43E00169EB5 /* Extensions.swift */; };
+		EE37092324FEBE42007B2E37 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE37092224FEBE42007B2E37 /* RegistrationController.swift */; };
+		EE37092624FEC189007B2E37 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE37092524FEC189007B2E37 /* User.swift */; };
 		EE56673424FDD1E500602B63 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56673324FDD1E500602B63 /* LoginController.swift */; };
 		EEBF438024FDD029006435BB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEBF437F24FDD029006435BB /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
@@ -38,6 +40,8 @@
 		EE0956E024FDD3F200169EB5 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		EE0956E224FDD41B00169EB5 /* InputContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputContainerView.swift; sourceTree = "<group>"; };
 		EE0956E524FDD43E00169EB5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EE37092224FEBE42007B2E37 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		EE37092524FEC189007B2E37 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EE56673324FDD1E500602B63 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		EEBF437F24FDD029006435BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -75,6 +79,7 @@
 		01659CDE24FD70AB00F84671 /* GuessTheNumber */ = {
 			isa = PBXGroup;
 			children = (
+				EE37092424FEC181007B2E37 /* Model */,
 				EE0956E424FDD43200169EB5 /* Utils */,
 				EE56673624FDD1F400602B63 /* Controllers */,
 				EE56673524FDD1EC00602B63 /* View */,
@@ -103,6 +108,14 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		EE37092424FEC181007B2E37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE37092524FEC189007B2E37 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		EE56673524FDD1EC00602B63 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +134,7 @@
 				01659CE324FD70AB00F84671 /* ViewController.swift */,
 				0177525224FEB34C00D9CA42 /* GameHistoryController.swift */,
 				EE56673324FDD1E500602B63 /* LoginController.swift */,
+				EE37092224FEBE42007B2E37 /* RegistrationController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -250,12 +264,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				01659CE424FD70AB00F84671 /* ViewController.swift in Sources */,
+				EE37092324FEBE42007B2E37 /* RegistrationController.swift in Sources */,
 				EE0956E324FDD41B00169EB5 /* InputContainerView.swift in Sources */,
 				EE56673424FDD1E500602B63 /* LoginController.swift in Sources */,
 				01659CE024FD70AB00F84671 /* AppDelegate.swift in Sources */,
 				01659CE224FD70AB00F84671 /* SceneDelegate.swift in Sources */,
 				EE0956E124FDD3F200169EB5 /* CustomTextField.swift in Sources */,
 				0177525324FEB34C00D9CA42 /* GameHistoryController.swift in Sources */,
+				EE37092624FEC189007B2E37 /* User.swift in Sources */,
 				EE0956E624FDD43E00169EB5 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
