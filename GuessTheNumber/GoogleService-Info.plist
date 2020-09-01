@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>809072231822-7504gs4c3so75ebqvaj78u89151hvdhg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.809072231822-7504gs4c3so75ebqvaj78u89151hvdhg</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDfeUZqQoXU1rfdHbX7nA55TVrUPYB9B2s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>809072231822</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.codewithkaavya.GuessTheNumber</string>
+	<key>PROJECT_ID</key>
+	<string>guessthenumber-bff2d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>guessthenumber-bff2d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:809072231822:ios:28797eb16a54a4fb4b10df</string>
+	<key>DATABASE_URL</key>
+	<string>https://guessthenumber-bff2d.firebaseio.com</string>
+</dict>
+</plist>
