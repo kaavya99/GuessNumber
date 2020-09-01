@@ -13,6 +13,7 @@
 		01659CE724FD70AB00F84671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01659CE524FD70AB00F84671 /* Main.storyboard */; };
 		01659CE924FD70AF00F84671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01659CE824FD70AF00F84671 /* Assets.xcassets */; };
 		01659CEC24FD70AF00F84671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01659CEA24FD70AF00F84671 /* LaunchScreen.storyboard */; };
+		0177525324FEB34C00D9CA42 /* GameHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0177525224FEB34C00D9CA42 /* GameHistoryController.swift */; };
 		30A703893E0D61F7DABA0D2C /* Pods_GuessTheNumber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BFC0DF0AD23096ED8F876A /* Pods_GuessTheNumber.framework */; };
 		EE0956E124FDD3F200169EB5 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0956E024FDD3F200169EB5 /* CustomTextField.swift */; };
 		EE0956E324FDD41B00169EB5 /* InputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0956E224FDD41B00169EB5 /* InputContainerView.swift */; };
@@ -30,6 +31,7 @@
 		01659CE824FD70AF00F84671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01659CEB24FD70AF00F84671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01659CED24FD70AF00F84671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0177525224FEB34C00D9CA42 /* GameHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHistoryController.swift; sourceTree = "<group>"; };
 		932F2D2E49DBB73E523C64D3 /* Pods-GuessTheNumber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessTheNumber.release.xcconfig"; path = "Target Support Files/Pods-GuessTheNumber/Pods-GuessTheNumber.release.xcconfig"; sourceTree = "<group>"; };
 		B478373D688D82CDC1589EC4 /* Pods-GuessTheNumber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessTheNumber.debug.xcconfig"; path = "Target Support Files/Pods-GuessTheNumber/Pods-GuessTheNumber.debug.xcconfig"; sourceTree = "<group>"; };
 		D8BFC0DF0AD23096ED8F876A /* Pods_GuessTheNumber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessTheNumber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				01659CE324FD70AB00F84671 /* ViewController.swift */,
+				0177525224FEB34C00D9CA42 /* GameHistoryController.swift */,
 				EE56673324FDD1E500602B63 /* LoginController.swift */,
 			);
 			path = Controllers;
@@ -252,6 +255,7 @@
 				01659CE024FD70AB00F84671 /* AppDelegate.swift in Sources */,
 				01659CE224FD70AB00F84671 /* SceneDelegate.swift in Sources */,
 				EE0956E124FDD3F200169EB5 /* CustomTextField.swift in Sources */,
+				0177525324FEB34C00D9CA42 /* GameHistoryController.swift in Sources */,
 				EE0956E624FDD43E00169EB5 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
